@@ -45,7 +45,24 @@ This is the critical forensic artifact. The **Windows Filtering Platform** gener
 * **Evidence:** Multiple blocks on high-value ports such as **445 (SMB)**, **135 (RPC)**, and **3389 (RDP)**.
 * **Correlation:** The timestamps in these logs match the Nmap scan duration exactly, providing proof of the attack source.
 
+## 📸 Investigative Evidence
+To maintain a professional forensic trail, I have compiled all visual evidence (screenshots from Kali Linux and Windows Event Viewer) into a single consolidated report.
 
+* **[📄 Download/View Technical Evidence PDF](./Lab_Evidence_Gallery.pdf)**
+
+---
+
+### 🔍 Quick Evidence Preview
+<details>
+<summary><b>Click to see what's inside the PDF</b></summary>
+
+| Evidence Type | Source System | Key Artifact |
+| :--- | :--- | :--- |
+| **Attack Logs** | Kali Linux | Nmap Stealth Scan Output |
+| **Kernel Blocks** | Windows 10 | Event ID 5157 (WFP) |
+| **Network Logs** | Windows 10 | `pfirewall.log` Dropped Packets |
+
+</details>
 
 ---
 
