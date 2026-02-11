@@ -1,0 +1,80 @@
+Script started on 2026-01-29 23:12:06-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="155" LINES="43"]
+                                                                                                                                                           
+
+]0;kali@kali: ~ 
+┌──(kali㉿kali)-[~]
+└─$ [?1h=[?2004hppp[38;5;244ming Target_IPpipinngpingg g -              --cc c 4 Target_IP[?1l>[?2004l
+PING Target_IP (Target_IP) 56(84) bytes of data.
+
+--- Target_IP ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3068ms
+
+                                                                                                                                                           
+
+]0;kali@kali: ~ 
+
+┌──(kali㉿kali)-[~]
+└─$ [?1h=[?2004hsss[38;5;244mudo apt install --reinstall open-vm-tools open-vm-tools-desktop -ysususudsuddosudoo o n                                                             n[38;5;244mano /etc/X11/xorg.conf.d/50-software-cursor.confnm                                               nmmanmaapnmapp p ---ssnn n ---PPnn n Target_IP[?1l>[?2004l
+[sudo] password for kali: 
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-01-29 23:15 EST
+Nmap scan report for Target_IP
+Host is up.
+Nmap done: 1 IP address (1 host up) scanned in 6.54 seconds
+                                                                                                                                                           
+
+]0;kali@kali: ~ 
+
+┌──(kali㉿kali)-[~]
+└─$ [?1h=[?2004hsss[38;5;244mudo nmap -sn -Pn Target_IPsususudsuddosudoo o nnnmnmmanmaapnmapp p ---ssS                    S S ---PPnn n Target_IP[?1l>[?2004l
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-01-29 23:15 EST
+Nmap scan report for Target_IP
+Host is up (0.00085s latency).
+All 1000 scanned ports on Target_IP are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: Target_MAC (VMware)
+
+Nmap done: 1 IP address (1 host up) scanned in 27.80 seconds
+                                                                                                                                                           
+
+]0;kali@kali: ~ 
+
+┌──(kali㉿kali)-[~]
+└─$ [?1h=[?2004hsss[38;5;244mudo nmap -sS -Pn Target_IPsususudsuddosudo nmap -sS -Pn Target_IPnmap -sS -Pn--Pn Target_IP-s-Pn Target_IPV-Pn Target_IP -Pn Target_IPV [?1l>[?2004l
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-01-29 23:17 EST
+Nmap scan report for Target_IP
+Host is up (0.00035s latency).
+All 1000 scanned ports on Target_IP are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: Target_MAC (VMware)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 28.09 seconds
+                                                                                                                                                           
+
+]0;kali@kali: ~ 
+
+┌──(kali㉿kali)-[~]
+└─$ [?1h=[?2004hsss[38;5;244mudo nmap -sS -sV -Pn Target_IPsususudsuddosudoo o nnnmnmmanmaapnmapp p ---A                         A A ---PPnn n Target_IP[?1l>[?2004l
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-01-29 23:18 EST
+Nmap scan report for Target_IP
+Host is up (0.00065s latency).
+All 1000 scanned ports on Target_IP are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: Target_MAC (VMware)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.65 ms Target_IP
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 35.84 seconds
+                                                                                                                                                           
+
+]0;kali@kali: ~ 
+
+┌──(kali㉿kali)-[~]
+└─$ [?1h=[?2004heee[38;5;244mxitexexexiexiitexit[?1l>[?2004l
+
+Script done on 2026-01-29 23:22:17-05:00 [COMMAND_EXIT_CODE="0"]
