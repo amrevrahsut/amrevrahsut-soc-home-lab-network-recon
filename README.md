@@ -27,7 +27,7 @@ I used a custom logging script to document all commands and output. This ensures
 * **Observation:** Nmap reported **1000 filtered tcp ports (no-response)**.
 * **Analyst Note:** The "Filtered" status confirms that the target's firewall is silently dropping packets rather than rejecting them with a `RST` (Reset) packet.
 
-> **Full Attacker Log:** [View Sanitized Recon Script](./kali_nmap_recon_sanitized.txt)
+> **Full Attacker Log:** [View Sanitized Recon Script](./kali_nmap_recon.txt)
 
 ---
 
