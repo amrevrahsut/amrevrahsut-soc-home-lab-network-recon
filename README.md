@@ -38,7 +38,7 @@ From the SOC perspective, I analyzed the telemetry generated during the attack w
 By analyzing the raw firewall logs, I identified the system's reaction to the Nmap probes.
 * **Pattern Identified:** While local loopback (`127.0.0.1`) and authorized DNS traffic (`Port 53`) were `ALLOW`ed, inbound probes from the Kali IP were silenced (Dropped).
 
-> **Full Firewall Log:** [View Sanitized Firewall Logs](./pfirewall_sanitized.log)
+> **Full Firewall Log:** [View Sanitized Firewall Logs](pfirewall_recon.log)
 
 ### 2. Event ID 5157 (WFP Blocked Connection)
 This is the critical forensic artifact. The **Windows Filtering Platform** generated events confirming it intercepted the reconnaissance packets.
